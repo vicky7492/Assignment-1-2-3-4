@@ -1,0 +1,272 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Bahnschrift SemiBold Condensed;}{\f2\fnil\fcharset0 Constantia;}{\f3\fnil\fcharset0 Bahnschrift SemiBold;}}
+{\colortbl ;\red255\green0\blue0;\red155\green0\blue211;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\b\f0\fs28\lang9 1. Check if a given number is odd or even ?\par
+\cf2\ul\b0\fs32 Syntax\fs28\par
+\cf0\ulnone\b\f1 import java.util.Scanner;\par
+\par
+public class EvenOdd \{\par
+\par
+    public static void main(String[] args) \{\par
+\par
+        Scanner reader = new Scanner(System.in);\par
+\par
+        System.out.print("Enter a number: ");\par
+        int num = reader.nextInt();\par
+\par
+        if(num % 2 == 0)\par
+            System.out.println(num + " is even");\par
+        else\par
+            System.out.println(num + " is odd");\par
+    \}\par
+\}\par
+\cf1\b0\f2\par
+\cf0\b\f0\par
+\cf1 2. Check If Number Is positive or Negetive?\b0\par
+\cf2\ul\fs32 Syntax\cf0\ulnone\fs28\par
+\b\f3 public class CheckPositiveOrNegativeExample\par
+\{  \par
+public static void main(String[] args)   \par
+\{  \par
+\par
+int num=-919;  \par
+  \par
+if(num>0)  \par
+\{  \par
+System.out.println("The number is positive.");  \par
+\}  \par
+ \par
+else if(num<0)  \par
+\{  \par
+System.out.println("The number is negative.");  \par
+\}  \par
+  \par
+else  \par
+\{  \par
+System.out.println("The number is zero.");  \par
+\}  \par
+\}  \par
+\}  \par
+\par
+\par
+\par
+\cf1 3. \f0 Find The Number Is Divisible By n or not?\f3\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.Scanner;\par
+public class Check_Divisiblity\par
+\{\par
+    public static void main(String[] args) \par
+    \{\par
+        int n;\par
+        Scanner s = new Scanner(System.in);\par
+        System.out.print("Enter any number:");\par
+        n = s.nextInt();\par
+        if(n % 5 == 0)\par
+        \{\par
+            System.out.println(n+" is divisible by 5");\par
+        \}\par
+        else\par
+        \{\par
+            System.out.println(n+" is not divisible by 5");\par
+        \}\par
+    \}\par
+\}\par
+\par
+\par
+\par
+\cf1 4. Program To read Two integers M and N & Swap Their Values?\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.*;  \par
+class SwapExample\{  \par
+    public static void main(String[] args) \{  \par
+       int x, y, t; \par
+       Scanner sc = new Scanner(System.in);  \par
+       System.out.println("Enter the value of X and Y");  \par
+       x = sc.nextInt();  \par
+       y = sc.nextInt();  \par
+       System.out.println("before swapping numbers: "+x +"  "+ y);  \par
+       \par
+       t = x;  \par
+       x = y;  \par
+       y = t;  \par
+       System.out.println("After swapping: "+x +"   " + y);  \par
+       System.out.println( );  \par
+    \}    \par
+\}\par
+\par
+\par
+\cf1 5. Program to accept Two Integersand check if they are equal or not?\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.Scanner;\par
+public class EqualNumber\par
+\{\par
+    public static void main(String[] args) \par
+    \{\par
+        int m, n;\par
+        Scanner s = new Scanner(System.in);\par
+        System.out.print("Enter the first number:");\par
+        m = s.nextInt();\par
+        System.out.print("Enter the second number:");\par
+        n = s.nextInt();\par
+        if(m == n)\par
+        \{\par
+            System.out.println(m+" and "+n+" are equal ");\par
+        \}\par
+        else\par
+        \{\par
+            System.out.println(m+" and "+n+" are not equal ");\par
+        \}\par
+    \}\par
+\}\par
+\par
+\cf1 6. Program to find the Biggest of 3 Numbers?\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.Scanner;\par
+public class LargestNumber \par
+\{\par
+    public static void main(String[] args) \par
+    \{\par
+        int x, y, z;\par
+        Scanner s = new Scanner(System.in);\par
+        System.out.print("Enter the first number = ");\par
+        x = s.nextInt();\par
+        System.out.print("Enter the second number = ");\par
+        y = s.nextInt();\par
+        System.out.print("Enter the third number =  ");\par
+        z = s.nextInt();\par
+        if(x > y && x > z)\par
+        \{\par
+            System.out.println("Largest number is = "+x);\par
+        \}\par
+        else if(y > z)\par
+        \{\par
+            System.out.println("Largest number is = "+y);\par
+        \}\par
+        else\par
+        \{\par
+            System.out.println("Largest number is = "+z);\par
+        \}\par
+ \par
+    \}\par
+\}\par
+\par
+\par
+\cf1 7. Program to Find if a given year is a Leap year?\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.Scanner;\par
+public class CheckLeapYear \par
+\{\par
+    public static void main(String args[])\par
+    \{\par
+        Scanner s = new Scanner(System.in);\par
+        System.out.print("Enter any year = ");\par
+        int year = s.nextInt();\par
+        boolean flag = false;\par
+        if(year % 400 == 0)\par
+        \{\par
+            flag = true;\par
+        \}\par
+        else if (year % 100 == 0)\par
+        \{\par
+            flag = false;\par
+        \}\par
+        else if(year % 4 == 0)\par
+        \{\par
+            flag = true;\par
+        \}\par
+        else\par
+        \{\par
+            flag = false;\par
+        \}\par
+        if(flag)\par
+        \{\par
+            System.out.println("Year "+year+" is a Leap Year");\par
+        \}\par
+        else\par
+        \{\par
+            System.out.println("Year "+year+" is not a Leap Year");\par
+        \}\par
+    \}\par
+\}\par
+\par
+\cf1 8.Program to Extract last two digits of a given year?\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.Scanner;\par
+public class Extract_Digit \par
+\{\par
+    public static void main(String[] args) \par
+    \{\par
+        int x, y, i = 0;\par
+        String z = "";\par
+        Scanner s = new Scanner(System.in);\par
+        System.out.print("Enter Year:");\par
+        x = s.nextInt();\par
+        while(i < 2)\par
+        \{\par
+            y = x % 10;\par
+            z = y + "" +z;\par
+            x = x / 10;\par
+            i++;\par
+        \}\par
+        System.out.println("Last two digits:"+z);\par
+    \}\par
+\}\par
+\par
+\cf1 9. Program to display the ATM transactions?\par
+\cf2\ul\b0\f0\fs32 Syntax\cf0\ulnone\b\f3\fs28\par
+import java.util.Scanner;\par
+public class ATM_Transaction\par
+\{\par
+    public static void main(String args[] )\par
+    \{ \par
+        int balance = 5000, withdraw, deposit;\par
+        Scanner s = new Scanner(System.in);\par
+        while(true)\par
+        \{\par
+            System.out.println("Automated Teller Machine");\par
+            System.out.println("Choose 1 for Withdraw");\par
+            System.out.println("Choose 2 for Deposit");\par
+            System.out.println("Choose 3 for Check Balance");\par
+            System.out.println("Choose 4 for EXIT");\par
+            System.out.print("Choose the operation you want to perform:");\par
+            int n = s.nextInt();\par
+            switch(n)\par
+            \{\par
+                case 1:\par
+                System.out.print("Enter money to be withdrawn:");\par
+                withdraw = s.nextInt();\par
+                if(balance >= withdraw)\par
+                \{\par
+                    balance = balance - withdraw;\par
+                    System.out.println("Please collect your money");\par
+                \}\par
+                else\par
+                \{\par
+                    System.out.println("Insufficient Balance");\par
+                \}\par
+                System.out.println("");\par
+                break;\par
+ \par
+                case 2:\par
+                System.out.print("Enter money to be deposited:");\par
+                deposit = s.nextInt();\par
+                balance = balance + deposit;\par
+                System.out.println("Your Money has been successfully depsited");\par
+                System.out.println("");\par
+                break;\par
+ \par
+                case 3:\par
+                System.out.println("Balance : "+balance);\par
+                System.out.println("");\par
+                break;\par
+ \par
+                case 4:\par
+                System.exit(0);\par
+            \}\par
+        \}\par
+    \}\par
+\}\par
+\par
+\b0\f0\fs22\par
+}
+ 
